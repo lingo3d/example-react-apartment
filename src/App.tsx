@@ -14,7 +14,7 @@ const Game = () => {
   }, key === "w" || joystick.y < 0)
 
   return (<>
-    <World defaultLight={false} bloom bloomStrength={0.2}>
+    <World defaultLight={false} bloom bloomStrength={0.2} bloomThreshold={0.3}>
       <Model src="gallery.glb" scale={8} physics="map" />
       <FirstPersonCamera active mouseControl fov={fov}>
         <Cube ref={characterRef} height={185} y={-200} innerY={500} rotationY={180} physics="character" visible={false} />

@@ -306,9 +306,9 @@
     "@lincode/reactivity" "*"
 
 "@lincode/react-joystick@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@lincode/react-joystick/-/react-joystick-1.0.1.tgz#bc3b2c863234c313ba50d974db074ce314a47d74"
-  integrity sha512-+/ykFJmmXIZRO2Ylmt/qGmKJ4Kz9qN91DmHf6/Wu7kBEvnn5sUdeMaQYluzfqoYnnNw8gVeZXvxbP6UZnH4HKQ==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@lincode/react-joystick/-/react-joystick-1.0.3.tgz#25ce693ddf05439e66fd0e7d3b8fdb6302d32f9c"
+  integrity sha512-7jGHULmPQlJn4KscWEg01ivnIQmIqMPWnPImxt4+xzwSfidagWd8Pr11Af12SZUjeZpSqgOgpgs25zsKfWWo/g==
   dependencies:
     "@lincode/hooks" "^1.0.26"
     "@lincode/math" "^1.0.6"
@@ -704,9 +704,9 @@ json5@^2.1.2:
     minimist "^1.2.5"
 
 lingo3d-react@^1.1.52:
-  version "1.1.52"
-  resolved "https://registry.yarnpkg.com/lingo3d-react/-/lingo3d-react-1.1.52.tgz#8d890ac7751bc00e686e45929aa4faf415d3ad99"
-  integrity sha512-CcckM+DmGhgrLUjeaCctP3l8Sjl3V7pQmHcNebZ8J7ZAW6Gi+WWK7K8dsMsmUnn+gvGnx/OePtWmAQ1PTK6xhA==
+  version "1.1.55"
+  resolved "https://registry.yarnpkg.com/lingo3d-react/-/lingo3d-react-1.1.55.tgz#80761815d1189cb147b4c7f8bba3cea9ed667a89"
+  integrity sha512-CEsRJWwOTsy5Hvu2suR5eKZFVJFKGSmbx3gV/YAp2a0JVTjAIMVzxusPVxg0jf05V7URyWIGIuTMMocKKjCMTA==
   dependencies:
     "@lincode/hooks" "^1.0.35"
     "@lincode/promiselikes" "^1.0.19"
@@ -716,15 +716,15 @@ lingo3d-react@^1.1.52:
     "@lincode/reactivity" "^1.0.52"
     "@lincode/utils" "*"
     "@tweakpane/core" "1"
-    lingo3d "1.9.69"
+    lingo3d "1.9.71"
     nanoid "3"
     popmotion "11"
     tweakpane "3"
 
-lingo3d@1.9.69:
-  version "1.9.69"
-  resolved "https://registry.yarnpkg.com/lingo3d/-/lingo3d-1.9.69.tgz#a0082aa8adef297358febf60ef8c93becda3b90d"
-  integrity sha512-vD8pt8eUSE+ChbUeNhiO0dj0ZfwpTeN6yPgypMwq1yGbO3K3pXmgbN98QCcAHE2qtYAj35wR2FPWhWNYdFY6tg==
+lingo3d@1.9.71:
+  version "1.9.71"
+  resolved "https://registry.yarnpkg.com/lingo3d/-/lingo3d-1.9.71.tgz#9bbc9ea0efa9b38df88da3f3dfc397f56b4fc30e"
+  integrity sha512-f6mkAdE3bXgeet4iThqm5mtyG5P1eaAV74qkETvYHHysvHhQY1hfx89nOaCT6hfwc39xKMLZCgRaW8qIW4czOA==
   dependencies:
     "@lincode/events" "*"
     "@lincode/filetypes" "*"
