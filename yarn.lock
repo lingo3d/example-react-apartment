@@ -306,15 +306,15 @@
     "@lincode/math" "*"
     react-device-detect "^2.1.2"
 
-"@lincode/react-reticle@*":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@lincode/react-reticle/-/react-reticle-1.1.0.tgz#f100eb8fea2a9db733ded46f203010aca93f502c"
-  integrity sha512-G68dl19XeHMR+sLw42xW7zSxsFSG8dcl1OYGP10REesFUwQ5/RbMvfJ5CJPYERmitc8EyV9BUuppixZJtC5WwQ==
+"@lincode/react-reticle@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@lincode/react-reticle/-/react-reticle-1.1.2.tgz#a52a220874d232745ad949d06fc1a9dc622514b6"
+  integrity sha512-4R1dV4nx1w1vamwhWDqt12SojsWc8+m5tC7IgXgdMGqh3zsxyimP2P0hdrovljcfYuZxk5VN0FfzCV11A9iS1g==
 
 "@lincode/reactivity@*":
-  version "1.0.53"
-  resolved "https://registry.yarnpkg.com/@lincode/reactivity/-/reactivity-1.0.53.tgz#21e26e43019501cbb0de82ce1950e586507cf491"
-  integrity sha512-X4bLMOgEKNcsEB346HGKwCU/NzH1ZNTq8xT9SqR8nQS1R3XHO53/3nufcux6E8u14BfRpllYlsb2bekgRiPn1g==
+  version "1.0.54"
+  resolved "https://registry.yarnpkg.com/@lincode/reactivity/-/reactivity-1.0.54.tgz#72b9a49076b1688ceaa8fde960ec0df8e089527c"
+  integrity sha512-QYqMO11icMzRwt6Rzc5KhQPA7s3HGOqyFht6+Cf8xiSSEASRsQp+QvdrTGV/xe8RItGZ6KOcPXN0GN25frGMSQ==
   dependencies:
     "@lincode/events" "*"
     "@lincode/promiselikes" "*"
@@ -327,6 +327,11 @@
   dependencies:
     "@types/lodash" "4"
     lodash "4"
+
+"@lit/reactive-element@^1.3.0":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@lit/reactive-element/-/reactive-element-1.3.1.tgz#3021ad0fa30a75a41212c5e7f1f169c5762ef8bb"
+  integrity sha512-nOJARIr3pReqK3hfFCSW2Zg/kFcFsSAlIE7z4a0C9D2dPrgD/YSn3ZP2ET/rxKB65SXyG7jJbkynBRm+tGlacw==
 
 "@pinyinma/guid@*":
   version "1.0.1"
@@ -357,9 +362,9 @@
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
 "@types/react-dom@*":
-  version "18.0.0"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.0.tgz#b13f8d098e4b0c45df4f1ed123833143b0c71141"
-  integrity sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==
+  version "18.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.1.tgz#cb3cc10ea91141b12c71001fede1017acfbce4db"
+  integrity sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==
   dependencies:
     "@types/react" "*"
 
@@ -381,6 +386,11 @@
   version "0.139.0"
   resolved "https://registry.yarnpkg.com/@types/three/-/three-0.139.0.tgz#69af1f0c52f8eea390f513e05478af1dd7f49e6f"
   integrity sha512-4V/jZhyq7Mv05coUzxL3bz8AuBOSi/1F0RY7ujisHTV0Amy/fnYJ+s7TSJ1/hXjZukSkpuFRgV+wvWUEMbsMbQ==
+
+"@types/trusted-types@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
+  integrity sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==
 
 "@vitejs/plugin-react@^1.0.7":
   version "1.3.1"
@@ -654,7 +664,7 @@ hey-listen@^1.0.8:
   resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
   integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
 
-howler@2.2.3:
+howler@2:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/howler/-/howler-2.2.3.tgz#a2eff9b08b586798e7a2ee17a602a90df28715da"
   integrity sha512-QM0FFkw0LRX1PR8pNzJVAY25JhIWvbKMBFM4gqk+QdV+kPXOhleWGCB6AiAF/goGjIHK2e/nIElplvjQwhr0jg==
@@ -687,28 +697,28 @@ json5@^2.2.1:
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
 
 lingo3d-react@^1.2.59:
-  version "1.2.59"
-  resolved "https://registry.yarnpkg.com/lingo3d-react/-/lingo3d-react-1.2.59.tgz#00298989da6c61556f35741aebca32587460203f"
-  integrity sha512-cuxy2DWrnxusH/H2+FGRzi4LA14Wu2b29TWRzfYf9qK5jL4U5pQr01VMurgIHGzSESaT7KxAMvjuozcU0j/GmQ==
+  version "1.2.68"
+  resolved "https://registry.yarnpkg.com/lingo3d-react/-/lingo3d-react-1.2.68.tgz#ac399e0ca4481b9d1c818b72b0de51e79a980bd9"
+  integrity sha512-JFpp9EDsMsPSw9p32Vqnl6etrnzGETFCF3Q6xmYRsradzVdeP7WizFUPWgxgUuRA829JDlnLx1ud/LcLPZp3RA==
   dependencies:
     "@lincode/hooks" "*"
     "@lincode/promiselikes" "*"
     "@lincode/react-global-state" "*"
     "@lincode/react-joystick" "*"
-    "@lincode/react-reticle" "*"
+    "@lincode/react-reticle" "1.1.2"
     "@lincode/reactivity" "*"
     "@lincode/utils" "*"
     "@tweakpane/core" "1"
-    lingo3d "1.10.67"
+    lingo3d "1.10.74"
     nanoid "3"
     popmotion "11"
     stats.js "^0.17.0"
     tweakpane "3"
 
-lingo3d@1.10.67:
-  version "1.10.67"
-  resolved "https://registry.yarnpkg.com/lingo3d/-/lingo3d-1.10.67.tgz#85a49fe7507834d9d527f84f5964060e6a3d6bb4"
-  integrity sha512-H4hfcVRPB3w15zCMN1k4CxwpScW8p2gD/bQZWmH67WbO6ZexBeDbH3ATkAeczGCSA6ySW1l8GM3tYu1dbu2xGg==
+lingo3d@1.10.74:
+  version "1.10.74"
+  resolved "https://registry.yarnpkg.com/lingo3d/-/lingo3d-1.10.74.tgz#410ecba022e137a14f1e0059d2cae42aaa0837e1"
+  integrity sha512-4RLcIeKtPeKnHqlbYRmWeRfExkc/96RiMjbUuh4cexBd9zk6Kfe1JNDRjQcvPsvctdGXLfhNx/TZqBLrLQc3ig==
   dependencies:
     "@lincode/events" "*"
     "@lincode/filetypes" "*"
@@ -717,11 +727,38 @@ lingo3d@1.10.67:
     "@lincode/reactivity" "*"
     "@lincode/utils" "*"
     "@pinyinma/guid" "*"
+    "@tweakpane/core" "1"
     "@types/three" "0.139.0"
     cannon-es "0.19.0"
-    howler "2.2.3"
+    howler "2"
+    lit "2"
     resize-observer-polyfill "1"
     three "0.139.2"
+    tweakpane "3"
+
+lit-element@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-3.2.0.tgz#9c981c55dfd9a8f124dc863edb62cc529d434db7"
+  integrity sha512-HbE7yt2SnUtg5DCrWt028oaU4D5F4k/1cntAFHTkzY8ZIa8N0Wmu92PxSxucsQSOXlODFrICkQ5x/tEshKi13g==
+  dependencies:
+    "@lit/reactive-element" "^1.3.0"
+    lit-html "^2.2.0"
+
+lit-html@^2.2.0:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-2.2.2.tgz#06ced65dd3fb2d7a214d998c65acc576ae2cb3c4"
+  integrity sha512-cJofCRXuizwyaiGt9pJjJOcauezUlSB6t87VBXsPwRhbzF29MgD8GH6fZ0BuZdXAAC02IRONZBd//VPUuU8QbQ==
+  dependencies:
+    "@types/trusted-types" "^2.0.2"
+
+lit@2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/lit/-/lit-2.2.2.tgz#b7f729d6ca7e17efbf2bf589df2d5eb04d9620ba"
+  integrity sha512-eN3+2QRHn/erxYB88AXiiRgQA6RltE9MhzySCwX+ACOxA/MLWN3VdXvcbZD9PN09zmUwlgzDvW3T84YWj2Sa0A==
+  dependencies:
+    "@lit/reactive-element" "^1.3.0"
+    lit-element "^3.2.0"
+    lit-html "^2.2.0"
 
 lodash@4:
   version "4.17.21"
