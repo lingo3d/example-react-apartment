@@ -1,4 +1,4 @@
-import { AreaLight, Cube, FirstPersonCamera, Joystick, Model, Skybox, useKeyboard, useLoop, usePreload, useWindowSize, World } from "lingo3d-react"
+import { Setup, Cube, FirstPersonCamera, Joystick, Model, Skybox, useKeyboard, useLoop, usePreload, useWindowSize, World } from "lingo3d-react"
 import { useRef, useState } from "react"
 
 const Game = () => {
@@ -14,16 +14,28 @@ const Game = () => {
   }, key === "w" || joystick.y < 0)
 
   return (<>
-    <World defaultLight={false} bloom bloomStrength={0.2} bloomThreshold={0.3}>
-      <Model src="gallery.glb" scale={8} physics="map" />
+    <World>
+      <Model
+        roughnessFactor={0.5}
+        physics="map"
+        width={160.37}
+        depth={138.31}
+        scaleX={8}
+        scaleY={8}
+        scaleZ={8}
+        src="gallery.glb"
+      />
+      <Skybox texture="skybox.jpg" />
+      <Setup
+        defaultLight="studio"
+        exposure={0.6}
+        bloom
+        bloomStrength={0.2}
+        bloomThreshold={0.7}
+      />
       <FirstPersonCamera active mouseControl fov={fov}>
         <Cube ref={characterRef} height={185} y={-200} innerY={500} rotationY={180} physics="character" visible={false} />
       </FirstPersonCamera>
-      <AreaLight z={650} intensity={1.5} />
-      <AreaLight z={-650} rotationY={180} intensity={0.75} />
-      <AreaLight x={650} rotationY={90} intensity={0.75} />
-      <AreaLight x={-650} rotationY={-90} intensity={0.75} />
-      <Skybox texture="skybox.jpg" />
     </World>
     <Joystick onMove={setJoystick} onMoveEnd={() => setJoystick({ x:0, y: 0, angle: 0 })} />
   </>)
