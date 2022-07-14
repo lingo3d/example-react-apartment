@@ -21,8 +21,8 @@ const Game = () => {
 
   // ambient occlusion and bloom toggles
   // 环境光遮蔽和辉光开关
-  const [ambientOcclusion, setAmbientOcclusion] = useState(false);
-  const [bloom, setBloom] = useState(false);
+  const [ambientOcclusion, setAmbientOcclusion] = useState(true);
+  const [bloom, setBloom] = useState(true);
 
   const characterRef = useRef<types.Cube>(null);
 
