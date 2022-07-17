@@ -53,8 +53,7 @@ const Game = () => {
       {/* room model */}
       {/* 房间模型 */}
       <Model
-        pbr
-        metalnessFactor={0.3}
+        metalnessFactor={0.5}
         roughnessFactor={0.5}
         physics="map"
         scale={8}
