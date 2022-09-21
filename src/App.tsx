@@ -6,10 +6,10 @@ import {
   usePreload,
   useWindowSize,
   World,
-  types,
   keyboard,
   TweakPane,
   PaneInput,
+  Lingo,
 } from "lingo3d-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -24,7 +24,7 @@ const Game = () => {
   const [ambientOcclusion, setAmbientOcclusion] = useState(true);
   const [bloom, setBloom] = useState(true);
 
-  const characterRef = useRef<types.Cube>(null);
+  const characterRef = useRef<Lingo.Cube>(null);
 
   // keyboard controls
   // 键盘控制
@@ -43,7 +43,7 @@ const Game = () => {
   return (
     <World
       defaultLight="studio"
-      exposure={bloom ? 0.7 : 1}
+      exposure={bloom ? 1.4 : 1.9}
       bloom={bloom}
       bloomStrength={0.3}
       bloomThreshold={0.8}
